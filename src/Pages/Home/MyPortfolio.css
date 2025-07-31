@@ -222,11 +222,10 @@
     margin-top: 8px;
   }
 
-  .nav-arrow,
-  .github--button--container,
-  .portfolio--link {
-    display: none !important;
-  }
+ .nav-arrow {
+  display: none !important;
+}
+
 }
 /* Hide read-more button on desktop */
 @media (min-width: 769px) {
