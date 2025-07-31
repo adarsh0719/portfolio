@@ -2,7 +2,7 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "adarsh-portfolio",
+  "homepage": "https://your-vercel-site.vercel.app",
   "dependencies": {
     "cra-template": "1.2.0",
     "framer-motion": "^12.0.6",
