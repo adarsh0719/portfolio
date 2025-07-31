@@ -1,0 +1,103 @@
+
+
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "In frontend development, I use HTML, CSS, and JavaScript to build visually engaging, responsive web interfaces. I work with libraries like React to create dynamic UIs and focus on delivering smooth user experiences across devices and browsers."
+    },
+    {
+      "id": "2",
+      "src": "img/tag-1.png",
+      "title": "Back-End",
+      "description": "I develop robust backends using Node.js and Express.js to manage APIs, server-side logic, and secure data handling. I focus on building scalable, maintainable systems with proper authentication, routing, and performance optimization. "
+    },
+    {
+      "id": "3",
+      "src": "img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "I create user-centered designs using Figma and Adobe XD. My workflow includes wireframing, prototyping, and iterating interfaces to ensure usability and aesthetic appeal, prioritizing both functionality and visual clarity"
+    },
+    {
+      "id": "4",
+      "src": "img/feather-pen-1.png",
+      "title": "Database management",
+      "description": "I work with MongoDB for NoSQL flexibility and use PostgreSQL for structured data. I design efficient schemas, handle data queries, and ensure secure, optimized storage for smooth backend integration and data operations"
+    }
+  ],
+  "portfolio": [
+  {
+    "title": "CarXpert-360",
+    "description": "CarXpert 360 is a mobile-responsive web application that offers an all-in-one solution for vehicle owners. It features an AI-based Damage Analyser that detects vehicle damage from uploaded images, a Towing Service that finds the nearest service center based on the user's live location, and an Accessories Store where users can purchase car accessories securely using the Stripe payment gateway. The platform ensures ease of use, real-time assistance, and a seamless shopping experience for car owners.",
+    "src": "img/carXpert.png",
+    "github": "https://github.com/adarsh0719/carXpert-360",
+    "live": "https://car-xpert-360-qol1.vercel.app/"
+  },
+  {
+    "title": "Code-Clash",
+    "description": "Code-Clash is a mobile-responsive web platform designed to streamline placement preparation by bringing together the most useful DSA problems from platforms like LeetCode and GeeksforGeeks. It helps users save time and stay focused with features like topic-wise roadmaps, daily coding challenges, goal setting, and visual progress tracking through pie charts and graphs. The application is tailored to help students and aspiring developers prepare efficiently for coding interviews and technical rounds.",
+    "src": "img/code-clash.png",
+    "github": "https://github.com/adarsh0719/code-clash",
+    "live": "https://adarsh0719.pythonanywhere.com/"
+  },
+  {
+    "title": "Damage Analyser",
+    "description": "Damage Analyser is an AI-powered tool that detects and analyzes vehicle damage severity from uploaded images using a TensorFlow-based deep learning model. It automatically identifies damaged areas, classifies the severity (minor, moderate, or severe), and generates a detailed damage report for the user. This system helps car owners, insurance agents, and service centers assess repair needs quickly and accurately through automated image analysis.",
+    "src": "img/damage.png",
+    "github": "https://github.com/adarsh0719/carXpert-360",
+    "live": "https://car-xpert-360-qol1.vercel.app/damagedetector"
+  },
+  {
+    "title": "Personal Blog & Memory Journal",
+    "description": "This is a customizable, mobile-responsive blog application designed to let users write, publish, and preserve their personal memories and ideas. It features theme customization, allowing users to personalize the look and feel of their blog. With smooth Figma-inspired UI/UX designs and engaging animations, the platform offers a delightful writing and reading experience. Whether it's daily thoughts, life stories, or creative ideas, users can easily share and revisit their moments.",
+    "src": "img/blog.png",
+    "github": "https://github.com/adarsh0719/blog-app",
+    "live": "https://blog-app-ten-eta.vercel.app/"
+  },
+  {
+    "title": "Invest-company landing page",
+    "description": "Invest Company is a fully animated, mobile-responsive landing page built to showcase a modern investment platform. Designed with smooth transitions, interactive elements, and high-quality UI animations, the page delivers a professional and engaging user experience. The layout highlights key features, services, and trust-building elements, making it perfect for attracting potential users or investors. Ideal for startups or finance-related companies looking to make a strong first impression.",
+    "src": "img/invest.png",
+    "github": "https://github.com/adarsh0719/Invest-company",
+    "live": "https://adarsh0719.github.io/Invest-company/"
+  },
+  {
+    "title": "JobRinger – Job Platform UI",
+    "description": "JobRinger is a clean and modern job platform user interface designed to connect job seekers with recruiters efficiently. The UI features intuitive navigation, organized job listings, filter options, and user-friendly layouts for job applications and profile management. Built with a focus on usability and responsiveness, JobRinger offers a smooth experience across all devices. Ideal for career platforms or job board applications looking for a sleek front-end foundation",
+    "src": "img/jobringer.png",
+    "github": "https://github.com/adarsh0719/jobringerclone",
+    "live": "https://github.com/adarsh0719/jobringerclone"
+  }
+  
+
+
+],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+/* Fixed animated background */
+.portfolio--section {
+  position: relative;
+  overflow: hidden;
+  padding: 4rem 0;
+  background: linear-gradient(120deg, #e0f0ff, #f0f9ff, #e6f7ff, #f0f9ff);
+  background-size: 300% 300%;
+  animation: gradientAnimation 15s ease infinite;
+  min-height: 100vh;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Card adjustments */
+.portfolio-card-wrapper {
+  flex: 1;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.portfolio--section--card {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 100%;
+}
+
+.portfolio--section--card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio--section--img img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.portfolio--section--card--content {
+  padding: 1.2rem;
+}
+
+/* Navigation arrows */
+.nav-arrow {
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.nav-arrow:hover {
+  background-color: #34495e;
+  transform: scale(1.05);
+}
+
+.nav-arrow:active {
+  transform: scale(0.95);
+}
+
+/* Other styles */
+.single-portfolio--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.portfolio-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.portfolio-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.indicator {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #bdc3c7;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.indicator:hover {
+  transform: scale(1.2);
+}
+
+.indicator.active {
+  background-color: #2c3e50;
+  transform: scale(1.2);
+}
+
+.github--button--container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 24px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.btn-github {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #24292e;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  position: relative;
+}
+
+.btn-github:hover {
+  background-color: #444c56;
+}
+
+.portfolio--link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+}
+
+.portfolio--link.live {
+  color: #28a745;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .portfolio--section {
+    padding: 2rem 0;
+    min-height: auto;
+  }
+  
+  .portfolio--container-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .github--button--container {
+    margin: 20px 0 0 0;
+    justify-content: center;
+  }
+  
+  .portfolio-navigation {
+    gap: 0.5rem;
+    padding: 0 10px;
+  }
+  
+  .portfolio-card-wrapper {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  
+  .portfolio--section--img img {
+    height: 250px;
+  }
+  
+  .nav-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+  
+  .portfolio-indicators {
+    margin-top: 1rem;
+  }
+  
+  .portfolio--section--card--content {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-description.collapsed {
+    max-height: 80px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .read-more-btn {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 8px;
+  }
+
+  .nav-arrow,
+  .github--button--container,
+  .portfolio--link {
+    display: none !important;
+  }
+}
+/* Hide read-more button on desktop */
+@media (min-width: 769px) {
+  .read-more-btn {
+    display: none;
+  }
+}
