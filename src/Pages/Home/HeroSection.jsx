@@ -1,7 +1,7 @@
 import heroimage from "../../img/adarsh.jpg";
 export default function HeroSection() {
   const openPDF = () => {
-    window.open("https://adarsh0719.github.io/adarsh-portfolio/img/RESUME-3.pdf", "_blank"); // Replace with the actual PDF path
+    window.open("https://drive.google.com/file/d/1dAgY9InkJyXJnv8pOe4gUcFmYDHhcrDF/view?usp=drivesdk ", "_blank"); // Replace with the actual PDF path
   };
   return (
     <section id="heroSection" className="hero--section">
